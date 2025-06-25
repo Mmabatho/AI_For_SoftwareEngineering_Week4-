@@ -10,33 +10,46 @@ This project covers a comprehensive introduction to AI using Python and popular 
 
 3 questions were answered.
 
-Q1: Explain the primary differences between TensorFlow and PyTorch. When would you choose one over the other?
+Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?
 
-Q2: Describe two use cases for Jupyter Notebooks in AI development.
+Q2: Compare supervised and unsupervised learning in the context of automated bug detection.
 
-Q3: How does spaCy enhance NLP tasks compared to basic Python string operations?
+Q3: Why is bias mitigation critical when using AI for user experience personalization?
 
-## 📌2. Comparative Analysis: Scikit-learn vs TensorFlow
+Focus:
 
-```
-| Feature         | Scikit-learn                        | TensorFlow                          |
-| --------------- | ----------------------------------- | ----------------------------------- |
-| **Target Use**  | Classical ML: SVM, Random Forests   | Deep Learning: Neural Networks      |
-| **Ease of Use** | Very beginner-friendly              | Steeper learning curve              |
-| **Community**   | Strong in academia and ML tutorials | Large global backing + industry use |
-```
+Understanding AI-driven code generation tools and their impact on development speed and limitations.
 
-# ✅ Part 2: Practical Implementation – Detailed Summary & Responses
+Comparing supervised and unsupervised learning techniques for automated bug detection.
 
-## 🔷 Task 1: Classical Machine Learning with Scikit-learn
+Emphasizing the importance of bias mitigation in AI-powered user experience personalization.
 
-We Used Scikit-learn to build a Decision Tree Classifier to predict iris flower species. 
-Our Outcome: A simple, interpretable ML model capable of classifying iris species with decent performance using basic metrics.
+Analyzing how AIOps improves software deployment efficiency through automation and predictive analytics.
 
-# 🔷 Task 2: Deep Learning with TensorFlow/PyTorch (MNIST Classification)
 
-We Build a CNN (Convolutional Neural Network) to classify handwritten digits from the MNIST dataset.
-Outcome: A performant CNN achieving >95% accuracy, with sample predictions visualized to demonstrate understanding of model performance.
+# ✅ Part 2: Practical Implementation 
+
+## 🔷 Task 1:AI-Powered Code Completion
+
+What was done:
+Used GitHub Copilot to generate a Python function that sorts a list of dictionaries by a given key. Compared the AI-generated code with a manual implementation.
+
+Focus:
+Evaluated efficiency, readability, and conciseness of AI-generated versus manually written code.
+
+Outcome:
+The AI-suggested solution was more succinct and leveraged Python’s built-in capabilities effectively, resulting in better maintainability and performance.
+
+# 🔷 Task 2: Automated Testing with AI
+
+What was done:
+Automated login page test cases using Selenium IDE enhanced with AI plugins. Tests covered both valid and invalid credential scenarios.
+
+Focus:
+Assessed how AI enhances test coverage, adaptability to UI changes, and reduces manual testing effort.
+
+Outcome:
+AI-driven tests provided robust coverage, dynamically adjusted to interface updates, and improved test reliability, reducing the need for frequent test script maintenance.
 
 
 # Task3: Predictive Analytics for Resource Allocation
